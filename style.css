@@ -1,0 +1,187 @@
+* {box-sizing: border-box;}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-style: normal;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  
+}
+
+
+header{
+width: 327px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #ffffff;
+margin-top: 70px;
+border-radius: 23px;
+}
+
+h1 {
+  margin-top: 28px;
+  font-size: 32px;
+  color: #1E1F36;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+
+.hrclass {
+    border: none;
+  border-top: 1px solid #E8E8EA;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+
+
+.img1 {
+  width: 237px;
+  display: flex;
+  margin-top: -108px;
+}
+
+.img2 {
+  width: 240px;
+  display: flex;
+  margin-top: -75px;
+}
+
+/* .faq {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+} */
+
+.faq-box {
+  display: flex;
+  align-items: start;
+  margin-bottom: 12px;
+  justify-content: space-around;
+  width: 280px;
+
+}
+
+.faq-column {
+  display: flex;
+  flex-direction: column;
+}
+
+ hr {
+  width: 270px;
+  margin-top: 16px;
+  border: none;
+  border-top: 1px solid #E8E8EA;
+ }
+
+.question {
+  color: #4B4C5F;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+
+.answer {
+  color: #787887;
+  font-size: 12px;
+  font-weight: 400;
+  display: none;
+}
+
+.answershow .answer{
+  display: flex;
+}
+.answershow .question{
+  font-weight: 900;
+}
+
+.answershow .arrow1 {
+  transform: rotate(180deg);
+}
+
+
+.arrow1 {
+  margin-top: -3px;
+  cursor: pointer;
+}
+
+p {
+  cursor: pointer;
+}
+
+.h1class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+
+  body {
+    display: flex;
+  }
+
+  header {
+    width: 920px;
+    height: 510px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    
+  }
+
+  .faq-box {
+    gap: 70px;
+    width: 255px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .faq {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .h1class {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .images {
+    margin-left: -250px;
+    margin-top: 50px;
+  }
+
+  .img1 {
+    width: 470px;
+    margin: 0px;
+  }
+  .img2 {
+    width: 470px;
+    margin-top: -120px;
+  }
+  .faq {
+    margin-left: -250px;
+  }
+
+}
+
+
+
+
